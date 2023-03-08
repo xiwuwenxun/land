@@ -119,6 +119,7 @@ export default {
     }
   },
   created() {
+    console.log(11);
     this.reRenderCode();
     this.timmer = setInterval(() => {
       this.reRenderCode();
